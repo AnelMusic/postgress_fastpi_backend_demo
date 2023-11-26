@@ -26,7 +26,7 @@ This project is a modern web application utilizing FastAPI for the backend API a
 
    ```bash
    git clone 
-   cd your-repository
+   cd https://github.com/AnelMusic/postgress_fastpi_backend_demo
    ```
 
 2. **Build and Run with Docker Compose**
