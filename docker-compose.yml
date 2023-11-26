@@ -1,0 +1,23 @@
+version: '3.8'
+services:
+  api:
+    build: ./api
+    ports:
+      - "8000:8000"
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=secret
+      #- POSTGRES_HOST: e.g 192.168.1.100  
+
+    depends_on:
+      - database
+  database:
+    build: ./database
+    environment:
+      POSTGRES_PASSWORD: secret
+      POSTGRES_DB: myappdb
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+volumes:
+  postgres_data:
