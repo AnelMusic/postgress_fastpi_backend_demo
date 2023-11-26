@@ -12,6 +12,9 @@ This project is a modern web application utilizing FastAPI for the backend API a
 - **PostgreSQL Database**: A powerful, open-source object-relational database system that uses and extends the SQL language.
 - **Docker Integration**: Containerization of both the API and the database for easy deployment and scalability.
 
+
+![image](https://github.com/AnelMusic/postgress_fastpi_backend_demo/assets/32487291/28c723b7-279b-4029-98ac-5068444f0bcd)
+
 ## Getting Started
 
 ### Prerequisites
