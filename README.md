@@ -69,4 +69,4 @@ myapp/
 - **Scalability**: Easily scale the application by managing multiple containers.
 - **Rapid Deployment**: Containers can be quickly started, stopped, and replicated.
 
-
+**.env file was comitted on purpose as some users might not be familiar with it
